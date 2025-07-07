@@ -1,6 +1,4 @@
-package com.mahghuuuls.examplemod;
-
-import com.mahghuuuls.examplemod.util.ModReference;
+package com.mahghuuuls.examplemod.util;
 
 import net.minecraftforge.common.config.Config;
 
