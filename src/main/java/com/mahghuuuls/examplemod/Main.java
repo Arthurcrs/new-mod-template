@@ -18,14 +18,17 @@ public class Main {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		proxy.preInit(); // Load configs, register blocks and items
 	}
 
 	@EventHandler
-	public void preInit(FMLInitializationEvent event) {
+	public void init(FMLInitializationEvent event) {
+		proxy.init(); // Register recipes, event handlers and world generation
 	}
 
 	@EventHandler
-	public void preInit(FMLPostInitializationEvent event) {
+	public void postInit(FMLPostInitializationEvent event) {
+		proxy.postInit(); // Interact with other mods and finalize setup
 	}
 
 }
