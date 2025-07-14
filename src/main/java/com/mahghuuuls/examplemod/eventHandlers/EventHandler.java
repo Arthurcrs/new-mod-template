@@ -1,4 +1,4 @@
-package com.mahghuuuls.examplemod.event;
+package com.mahghuuuls.examplemod.eventHandlers;
 
 import com.mahghuuuls.examplemod.util.ModReference;
 

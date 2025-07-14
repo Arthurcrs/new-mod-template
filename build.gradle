@@ -43,6 +43,8 @@ dependencies {
 
 	// Minecraft
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+    
+    // compile files("nosourcelibs/<mod.jar>") Imports using another mod's .jar file
 
 }
 
