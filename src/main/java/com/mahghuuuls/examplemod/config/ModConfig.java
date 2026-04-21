@@ -17,4 +17,7 @@ public class ModConfig {
             ConfigManager.sync(ExampleMod.MOD_ID, Config.Type.INSTANCE);
         }
     }
+
+    @Config.Comment("Example config boolean")
+    public static boolean exampleBoolean = true;
 }

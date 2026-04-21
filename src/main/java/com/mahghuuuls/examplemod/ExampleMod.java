@@ -25,11 +25,11 @@ public class ExampleMod {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        proxy.init(); // On a client, this executes ClientProxy#preInit. On a server, CommonProxy#preInit.
+        proxy.init(); // On a client, this executes ClientProxy#init. On a server, CommonProxy#init.
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        proxy.postInit(); // On a client, this executes ClientProxy#preInit. On a server, CommonProxy#preInit.
+        proxy.postInit(); // On a client, this executes ClientProxy#postInit. On a server, CommonProxy#postInit.
     }
 }
